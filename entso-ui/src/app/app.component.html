@@ -1,0 +1,21 @@
+<h2>Energy Price Query</h2>
+<form (submit)="fetchData($event)">
+  <label>Acquiring Domain:</label>
+  <input type="text" [(ngModel)]="acquiring_Domain" name="acquiringDomain" required /><br><br>
+
+  <label>Connecting Domain:</label>
+  <input type="text" [(ngModel)]="connecting_Domain" name="connectingDomain" required /><br><br>
+
+  <label>Period Start:</label>
+  <input type="text" [(ngModel)]="periodStart" name="periodStart" required /><br><br>
+
+  <label>Period End:</label>
+  <input type="text" [(ngModel)]="periodEnd" name="periodEnd" required /><br><br>
+
+  <button type="submit">Fetch Data</button>
+</form>
+
+<h3>Response:</h3>
+<pre>{{ response }}</pre>
+
+<router-outlet />
