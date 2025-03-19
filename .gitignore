@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/node_modules
+/.vs/entso-api/CopilotIndices/17.13.433.20974
+/.vs/entso-api/FileContentIndex
+/.vs
+*/dist
+*/node_modules
+*/.vscode
